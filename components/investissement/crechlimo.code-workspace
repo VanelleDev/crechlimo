@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "crechlimo",
+			"path": "../.."
+		},
+		{
+			"name": "components",
+			"path": "../../../components"
+		}
+	],
+	"settings": {}
+}
