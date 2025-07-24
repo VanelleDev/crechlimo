@@ -7,28 +7,28 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="flex justify-between items-center px-4 sm:px-20 sm:py-5 py-4 relative">
+    <header className="w-full flex justify-between items-center z-1 px-4 sm:px-20 sm:py-5 py-3  bg-black/20 backdrop-blur-2xl fixed overflow-hidden">
       <Image
         src="/Color=Blue-Yellow.png"
         alt="Logo CrechImmo"
         width={160}
         height={40}
-        className="h-10 w-auto "
+        className="h-auto sm:h-10 sm:w-auto w-20"
       />
 
       {/* Desktop Nav */}
       <nav className="hidden lg:flex gap-8 text-sm text-gray-700">
-        <Link href="/" className='text-[#000000] font-dmsans'>Accueil</Link>
-        <Link href="/investissement" className='text-[#000000] font-dmsans'>Investissement Immo</Link>
-        <Link href="/creche" className='text-[#000000] font-dmsans'>Sécuriser une Crèche</Link>
-        <Link href="/realisations" className='text-[#000000] font-dmsans'>Réalisations</Link>
-        <Link href="/tarifs" className='text-[#000000] font-dmsans'>Tarifs</Link>
-        <Link href="/blog" className='text-[#000000] font-dmsans'>Blog</Link>
+        <Link href="/" className='text-[#000000] hover:text-[#FFCD05] hover:cursor-pointeur font-dmsans'>Accueil</Link>
+        <Link href="/investissement" className='text-[#000000] hover:text-[#FFCD05] hover:cursor-pointeur font-dmsans'>Investissement Immo</Link>
+        <Link href="/creche" className='text-[#000000] hover:text-[#FFCD05] hover:cursor-pointeur font-dmsans'>Sécuriser une Crèche</Link>
+        <Link href="/realisations" className='text-[#000000] hover:text-[#FFCD05] hover:cursor-pointeur font-dmsans'>Réalisations</Link>
+        <Link href="/tarifs" className='text-[#000000] hover:text-[#FFCD05] hover:cursor-pointeur font-dmsans'>Tarifs</Link>
+        <Link href="/blog" className='text-[#000000] hover:text-[#FFCD05] hover:cursor-pointeur font-dmsans'>Blog</Link>
       </nav>
 
                      <button
                   type="submit"
-                  className="hidden lg:flex items-center gap-2 text-black  leading-7 bg-[#FFCD05] px-4  py-2 rounded-xl"
+                  className="hidden lg:flex items-center gap-2 text-black hover:cursor-pointeur leading-7 bg-[#FFCD05] px-4  py-2 rounded-xl"
                 >
                     <span className='text-[#000000] font-medium'>Nous contacter</span>
         <Image src="/Arrow-link.svg" alt="Envoyer" width={20} height={20} />

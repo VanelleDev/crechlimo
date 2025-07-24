@@ -7,7 +7,7 @@ import Coordonnee from '@/components/contact/Coordonnee'
 
 export default function Home() {
   return (
-    <div className="">
+    <div className=" w-full">
       
                     <Acceuil />
               <ContactForm/>
